@@ -3,6 +3,9 @@ import * as THREE from 'three';
 import { GLTFLoader } from 'three/examples/jsm/loaders/GLTFLoader.js';
 import { gsap } from 'gsap';
 
+// Hosted GLB in GitHub Release (avoids LFS limits on Pages)
+const HALL_URL = 'https://github.com/TitanSolve/3d_frontend/releases/download/v1.0.0/hintze_hall.glb';
+
 export default function ExhibitionHall({ onLoadComplete, onProgress, setGetCameraInfo, setCameraMove, onCheckpointSaved, allChapters, onNearbyCheckpoint, destinationCheckpoint, onCameraInfo }) {
   const canvasRef = useRef(null);
   const cameraRef = useRef();
@@ -90,7 +93,7 @@ export default function ExhibitionHall({ onLoadComplete, onProgress, setGetCamer
     const loader = new GLTFLoader();
     // Load GLB format
     loader.load(
-      '/assets/hall/hintze_hall.glb',
+      HALL_URL,
       (gltf) => {
         const root = gltf.scene;
         root.scale.set(100.0, 100.0, 100.0); // Match Chapter 0 backdrop scale

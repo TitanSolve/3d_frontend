@@ -2,6 +2,9 @@ import { useEffect, useRef, useState } from 'react';
 import * as THREE from 'three';
 import { GLTFLoader } from 'three/examples/jsm/loaders/GLTFLoader.js';
 
+// Hosted GLB in GitHub Release (avoids LFS limits on Pages)
+const HALL_URL = 'https://github.com/TitanSolve/3d_frontend/releases/download/v1.0.0/hintze_hall.glb';
+
 export default function BackgroundHall({ onLoadComplete }) {
   const mountRef = useRef(null);
   const [loadProgress, setLoadProgress] = useState(0);
@@ -45,7 +48,7 @@ export default function BackgroundHall({ onLoadComplete }) {
 
     const loader = new GLTFLoader();
     loader.load(
-      '/assets/hall/hintze_hall.glb',
+      HALL_URL,
       (gltf) => {
         clearInterval(progressInterval);
         setLoadProgress(100);
