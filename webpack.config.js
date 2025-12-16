@@ -62,7 +62,11 @@ module.exports = {
       patterns: [
         {
           from: path.resolve(__dirname, 'assets'),
-          to: 'assets'
+          to: 'assets',
+          // Avoid copying the huge hall GLB; it loads from GitHub Release instead
+          globOptions: {
+            ignore: ['**/hall/hintze_hall.glb']
+          }
         }
       ]
     })
