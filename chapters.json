@@ -1,0 +1,182 @@
+[
+  {
+    "id": 11,
+    "title": "Start",
+    "comment": "Hello, Welcome to our Hall! Please enjoy your visit!",
+    "position": {
+      "x": 25,
+      "y": 140,
+      "z": 1525
+    },
+    "direction": {
+      "x": 0,
+      "y": 0,
+      "z": -1
+    }
+  },
+  {
+    "id": 12,
+    "title": "Giraffee",
+    "comment": "Giraffee can be imagined as an ancient, slightly mythical cousin of the modern giraffe, walking the edges of primeval forests and open savannas. Its form blends the familiar long-legged grace of today’s giraffe with rougher, more robust features suited to a wilder, less stable world.",
+    "position": {
+      "x": -400.7944,
+      "y": 173.7062,
+      "z": 1023.0624
+    },
+    "direction": {
+      "x": -0.9862,
+      "y": 0.1494,
+      "z": -0.0719
+    }
+  },
+  {
+    "id": 13,
+    "title": "Dinosaurs",
+    "comment": "Dinosaurs dominated Earth for over 165 million years, evolving into a vast array of forms from tiny feathered predators to colossal plant-eaters during the Mesozoic Era.",
+    "position": {
+      "x": 451.0153,
+      "y": 204.4508,
+      "z": 559.3418
+    },
+    "direction": {
+      "x": 0.9966,
+      "y": 0.0819,
+      "z": 0.0032
+    }
+  },
+  {
+    "id": 14,
+    "title": "Leonardo da Vinci",
+    "comment": "Leonardo da Vinci, often called Leo by admirers, stands as the ultimate Renaissance genius, blending art, science, and invention in ways that reshaped human understanding. Born in 1452 near the Tuscan town of Vinci, he apprenticed under Andrea del Verrocchio, mastering painting, sculpture, and engineering before dazzling courts in Milan, Florence, and France.",
+    "position": {
+      "x": -42.6689,
+      "y": 430.8543,
+      "z": -1463.5591
+    },
+    "direction": {
+      "x": 0.1711,
+      "y": 0.032,
+      "z": -0.9847
+    }
+  },
+  {
+    "id": 15,
+    "title": "Ostrich",
+    "comment": "Ostriches represent the largest living birds on Earth, thriving as flightless giants across African savannas with remarkable speed and strength. Native to open grasslands and arid regions, they evolved powerful legs for sprinting up to 70 km/h, outpacing most land predators.",
+    "position": {
+      "x": -775.093,
+      "y": 648.9442,
+      "z": -1918.2842
+    },
+    "direction": {
+      "x": -0.8994,
+      "y": 0.3108,
+      "z": 0.3073
+    }
+  },
+  {
+    "id": 16,
+    "title": "Socratess",
+    "comment": "Socratess emerges as a visionary thinker in ancient Athens, blending sharp intellect with unyielding pursuit of truth through relentless questioning. Living from around 470 to 399 BCE, she roamed the agora, challenging citizens on virtue, justice, and the good life, earning both admiration and enmity.",
+    "position": {
+      "x": -141.8851,
+      "y": 625.5851,
+      "z": 1853.09
+    },
+    "direction": {
+      "x": 0.4457,
+      "y": 0.2416,
+      "z": -0.862
+    }
+  },
+  {
+    "id": 17,
+    "title": "Lu vuru musuem",
+    "comment": "Lu vuru musuem, known today as the Louvre, captivates as a grand palace-turned-treasure trove in the heart of Paris, housing humanity's artistic legacy from antiquity to the Renaissance. Originally a 12th-century fortress built by King Philip II to defend against invaders, it evolved into a royal residence under monarchs like Francis I, who transformed it into a Renaissance jewel.",
+    "position": {
+      "x": 39.4663,
+      "y": 916.3467,
+      "z": 883.1625
+    },
+    "direction": {
+      "x": -0.0295,
+      "y": -0.2898,
+      "z": -0.9566
+    }
+  },
+  {
+    "id": 18,
+    "title": "Giant Fish",
+    "comment": "Giant Fish roam the deepest oceans and vast rivers as nature's colossal swimmers, embodying power and mystery in aquatic realms. From the gentle behemoths of the sea to prehistoric monsters, they captivate with sizes defying imagination, often filter-feeding on plankton despite their immense bulk.",
+    "position": {
+      "x": 388.0885,
+      "y": 754.6459,
+      "z": 663.3262
+    },
+    "direction": {
+      "x": -0.5523,
+      "y": -0.04,
+      "z": -0.8327
+    }
+  },
+  {
+    "id": 19,
+    "title": "oldman",
+    "comment": "This is a random old man",
+    "position": {
+      "x": -821.6882,
+      "y": 1156.646,
+      "z": 1785.5485
+    },
+    "direction": {
+      "x": -0.9981,
+      "y": -0.028,
+      "z": 0.0548
+    }
+  },
+  {
+    "id": 20,
+    "title": "The Hall",
+    "comment": "This is the Hall",
+    "position": {
+      "x": 55.9575,
+      "y": 446.8395,
+      "z": -1357.1849
+    },
+    "direction": {
+      "x": -0.0151,
+      "y": 0.002,
+      "z": 0.9999
+    }
+  },
+  {
+    "id": 21,
+    "title": "Elephant",
+    "comment": "Elephants command awe as Earth's largest land animals, embodying ancient strength and profound intelligence across vast savannas and forests. African and Asian species thrive in matriarchal herds, roaming territories with trunks that serve as versatile tools for foraging, bathing, and social bonds.",
+    "position": {
+      "x": 253.9131,
+      "y": 276.3398,
+      "z": 990.8954
+    },
+    "direction": {
+      "x": 0.9952,
+      "y": 0.0779,
+      "z": 0.0597
+    }
+  },
+  {
+    "id": 22,
+    "title": "The end",
+    "comment": "Thanks for your view! Good bye",
+    "position": {
+      "x": -55.4865,
+      "y": 305.6646,
+      "z": 1369.7676
+    },
+    "direction": {
+      "x": 0.1791,
+      "y": 0.0839,
+      "z": -0.9802
+    }
+  }
+]
