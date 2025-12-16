@@ -3,8 +3,8 @@ import * as THREE from 'three';
 import { GLTFLoader } from 'three/examples/jsm/loaders/GLTFLoader.js';
 import { gsap } from 'gsap';
 
-// Hosted GLB in GitHub Release (avoids LFS limits on Pages)
-const HALL_URL = 'https://github.com/TitanSolve/3d_frontend/releases/download/v1.0.0/hintze_hall.glb';
+// Hosted GLB in Cloudflare R2 (CORS-friendly)
+const HALL_URL = 'https://pub-ba110e29ffce46b3813b26c90852cc0d.r2.dev/hintze_hall.glb';
 
 export default function ExhibitionHall({ onLoadComplete, onProgress, setGetCameraInfo, setCameraMove, onCheckpointSaved, allChapters, onNearbyCheckpoint, destinationCheckpoint, onCameraInfo }) {
   const canvasRef = useRef(null);
